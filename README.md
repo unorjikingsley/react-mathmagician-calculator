@@ -9,10 +9,6 @@
 - Major languages `HTML` `CSS` `JavaScript`
 - Technologies and tools used `Linters` `GitHub` `Git` `Jest` `Webpack` 
 
-## Live Demo (if available)
-
-[Live Demo Link](not avaliable yet)
-
 ## Getting Started
 
 - Copy link to the repository 
