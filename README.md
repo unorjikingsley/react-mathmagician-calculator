@@ -40,13 +40,13 @@
   </ul>
 </details>
 
-<!-- ### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[React/Javascript]**
+- **[HTML]**
+- **[CSS]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,6 +191,6 @@ I would like to thank Microverse for this opportunity
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT]([./LICENSE](https://github.com/unorjikingsley/react-mathmagician-calculator/blob/main/LICENSE)) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
