@@ -60,7 +60,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-<!-- GETTING STARTED --> -->
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -191,6 +191,6 @@ I would like to thank Microverse for this opportunity
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]([./LICENSE](https://github.com/unorjikingsley/react-mathmagician-calculator/blob/main/LICENSE)) licensed.
+This project is [MIT](https://github.com/unorjikingsley/react-mathmagician-calculator/blob/linters-features/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
