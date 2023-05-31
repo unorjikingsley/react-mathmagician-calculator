@@ -95,11 +95,4 @@ Keypad.propTypes = {
   divideLabel: PropTypes.string.isRequired,
 };
 
-// Keypad.defaultProps = {
-//   clearLabel: undefined,
-//   negateLabel: undefined,
-//   percentageLabel: undefined,
-//   divideLabel: undefined,
-// };
-
 export default Keypad;
