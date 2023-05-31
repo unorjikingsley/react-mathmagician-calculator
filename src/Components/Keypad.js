@@ -89,17 +89,17 @@ const Keypad = (props) => {
 };
 
 Keypad.propTypes = {
-  clearLabel: PropTypes.string,
-  negateLabel: PropTypes.string,
-  percentageLabel: PropTypes.string,
-  divideLabel: PropTypes.string,
+  clearLabel: PropTypes.string.isRequired,
+  negateLabel: PropTypes.string.isRequired,
+  percentageLabel: PropTypes.string.isRequired,
+  divideLabel: PropTypes.string.isRequired,
 };
 
-Keypad.defaultProps = {
-  clearLabel: undefined,
-  negateLabel: undefined,
-  percentageLabel: undefined,
-  divideLabel: undefined,
-};
+// Keypad.defaultProps = {
+//   clearLabel: undefined,
+//   negateLabel: undefined,
+//   percentageLabel: undefined,
+//   divideLabel: undefined,
+// };
 
 export default Keypad;

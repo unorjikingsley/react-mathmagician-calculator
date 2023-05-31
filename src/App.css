@@ -24,7 +24,7 @@ body {
 }
 
 /* screen for answers */
-input[type="text"] {
+.input {
   height: 65px;
   width: 349px;
   background-color: #10111600;
@@ -36,11 +36,11 @@ input[type="text"] {
   letter-spacing: 1px;
 }
 
-input::placeholder {
+/* .input::placeholder {
   color: #fff;
   font-size: 25px;
   font-weight: 500;
-}
+} */
 
 /* buttons */
 .keypad {
