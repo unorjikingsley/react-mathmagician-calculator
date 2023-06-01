@@ -11,13 +11,21 @@ body {
   align-items: center;
 }
 
+.big-container {
+  height: 100vh;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
 /* calculator-container? */
 .container {
-  top: 50%;
   right: 50px;
-  margin: 45% auto;
+  margin: 10% auto;
   width: 356px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   border: none;
   background: rgb(179, 195, 218);
   border-radius: 5px;
@@ -35,12 +43,6 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
-/* .input::placeholder {
-  color: #fff;
-  font-size: 25px;
-  font-weight: 500;
-} */
 
 /* buttons */
 .keypad {
