@@ -1,4 +1,5 @@
 import { useState, useEffect, React } from 'react';
+import styles from '../styles/NavBar.module.css';
 
 function Quotes() {
   const link = 'https://api.api-ninjas.com/v1/quotes?category=computers';
@@ -33,7 +34,7 @@ function Quotes() {
     <ul>
       {isLoading && <h2>Loading...</h2>}
       {quotes && quotes.map((quotes) => (
-        <li key={quotes.author}>
+        <li key={quotes.author} className={styles.quotes}>
           <h2>{quotes.author}</h2>
           <p>{quotes.quote}</p>
         </li>
