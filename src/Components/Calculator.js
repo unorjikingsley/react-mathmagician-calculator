@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculator';
+// import operate from '../logic/operate';
 
 const Calculator = () => {
   const [state, setState] = useState({
     total: 0,
     next: null,
-    operations: null,
+    operation: null,
   });
 
   const clickHandler = (e) => {
@@ -27,7 +28,7 @@ const Calculator = () => {
         </div>
 
         <div className="keypad">
-          <button type="button" onClick={clickHandler}>
+          <button type="button" name="AC" onClick={clickHandler}>
             AC
           </button>
           <button type="button" name="+/-" onClick={clickHandler}>
@@ -39,10 +40,11 @@ const Calculator = () => {
           <button
             type="button"
             className="highlight"
-            name="/"
+            name="÷"
             onClick={clickHandler}
           >
-            &divide;
+            {/* &divide; */}
+            ÷
           </button>
           <button type="button" name="7" onClick={clickHandler}>
             7
@@ -56,7 +58,7 @@ const Calculator = () => {
           <button
             type="button"
             className="highlight"
-            name="*"
+            name="x"
             onClick={clickHandler}
           >
             {/* &times; */}
