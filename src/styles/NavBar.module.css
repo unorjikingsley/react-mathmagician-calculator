@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 5px 70px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 25%);
+}
+
+.title {
+  font-size: 34px;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: 20px;
+  border-right: 2px black solid;
+  padding-right: 10px;
+  list-style: none;
+}
+
+.navlink:last-child {
+  border-right: none;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: black;
+}
+
+.quotes {
+  list-style: none;
+}

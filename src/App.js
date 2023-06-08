@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Routes/Home';
+import Calc from './Routes/Calc';
+import Quote from './Routes/Quote';
+import UiLayout from './Components/UiLayout';
+import NotMatch from './Routes/error-page';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Routes>
+    <Route path="/" element={<UiLayout />}>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Calc />} />
+      <Route path="/quotes" element={<Quote />} />
+      <Route path="*" element={<NotMatch />} />
+    </Route>
+  </Routes>
+);
 
 export default App;

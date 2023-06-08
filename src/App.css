@@ -1,38 +1,64 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* calculator-container? */
+.container {
+  width: 456px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border: none;
+  background: rgb(179, 195, 218);
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* screen for answers */
+.input {
+  height: 65px;
+  width: 449px;
+  background-color: #10111600;
+  border: 0;
+  color: #fff;
+  text-align: right;
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* buttons */
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(60px, auto);
+}
+
+button {
+  margin-top: 0.1px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid rgb(179, 195, 218);
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+/* zero button  */
+#zero {
+  grid-column: 1/3;
+  grid-row: 5;
+  color: #262834;
+}
+
+/* orange design */
+.highlight {
+  background: #f79505;
+  border: 1px solid rgb(179, 195, 218);
 }
