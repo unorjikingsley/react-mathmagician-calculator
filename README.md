@@ -50,17 +50,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## 🚀 Calculator website Live Demo <a name="live-demo"></a>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://math-react-calculator.onrender.com/)
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- GETTING STARTED -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
